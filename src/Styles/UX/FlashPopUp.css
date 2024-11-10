@@ -1,0 +1,36 @@
+.flash-sale-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 250px;
+  height: 30vh;
+  padding: 15px;
+  background-color: white;
+  color: white;
+  border-radius: 8px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.flash-sale-image,
+.flash-sale-video {
+  max-width: 100%;
+  border-radius: 8px;
+  width: 60%;
+}
